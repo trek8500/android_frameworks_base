@@ -2807,9 +2807,27 @@ public final class Settings {
          * 1: Small display (Froyo stock)
          * 2: No display (Gingerbread/ICS stock)
          * default: 2
-         * @hide
+	 * @hide
          */
         public static final String STATUS_BAR_AM_PM = "status_bar_am_pm";
+
+	/**
+         * HALO, should default to 0 (no, do not show)
+         * @hide
+         */
+        public static final String HALO_ACTIVE = "halo_active";
+
+        /**
+         * HALO reversed?, should default to 1 (yes, reverse)
+         * @hide
+         */
+        public static final String HALO_REVERSED = "halo_reversed";
+
+        /**
+         * HALO hide?, should default to 0 (no, do not hide)
+         * @hide
+         */
+        public static final String HALO_HIDE = "halo_hide";
 
         /**
          * Display style of the status bar battery information
